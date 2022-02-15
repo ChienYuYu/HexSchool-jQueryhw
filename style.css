@@ -121,7 +121,7 @@ body{
     font-size: 15px;
     border-bottom: 3px solid transparent;
 }
-.header .menu li a:hover{
+.header .menu >li >a:hover{
     border-bottom: 3px solid #00cc99;
 }
 .header .menu .active{
