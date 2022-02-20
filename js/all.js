@@ -16,7 +16,7 @@ $(document).ready(function(){
 //     $(this).parent().siblings().find('.d-menu').slideUp();
 //     });
     
-    //因為我menu多加了一個li，所以我又寫了這個版本↓-----------
+    //因為我menu多加了一個關於我們li，所以我又寫了這個版本↓-----------
     $('.menu a').click(function (event) {
     event.preventDefault();
     $(this).toggleClass('active');
