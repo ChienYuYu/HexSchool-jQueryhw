@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    //原始寫的收合選單↓--------------------------------
+    //原本的寫法 忘記寫點另一個li a原本的要收起來↓--------------------------------
 //     $('.dropdown').click(function(event){
 //         event.preventDefault();
 //         $('.dropdown').toggleClass('active');
@@ -24,6 +24,8 @@ $(document).ready(function(){
     $(this).parent().siblings().find('a').removeClass('active');
     $(this).parent().siblings().find('.d-menu').slideUp();
   });
+    
+    //-----------------------------------------------------------
     
 
     //swiper---------------------------
